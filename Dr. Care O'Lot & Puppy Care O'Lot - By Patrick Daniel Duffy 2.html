@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)file:///C:/Users/User/Documents/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dr. Care O&#39;Lot and Puppy Care O&#39;Lot Explains - Fun and Educational Health Tips for Kids">
+    <title>Dr. Care O'Lot &amp; Puppy Care O'Lot - By Patrick Daniel Duffy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1b2a;
+            color: white;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            position: relative;  /* Ensure glitter is positioned correctly */
+        }
+
+        /* Neon glow for headings */
+        h1, h2 {
+            text-align: center;
+            color: #00ffcc;
+            text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 40px #00ffcc, 0 0 80px #00ffcc;
+        }
+
+        /* Neon glow for buttons */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff007f; /* Neon pink */
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 15px;
+            animation: bounce 2s infinite;
+            text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f, 0 0 40px #ff007f;
+        }
+
+        .btn:hover {
+            background-color: #ff66b2;
+            animation: none;
+            text-shadow: 0 0 20px #ff66b2, 0 0 40px #ff66b2;
+        }
+
+        /* Glitter falling animation */
+        @keyframes glitterRain {
+            0% {
+                transform: translateY(-100%);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+        }
+
+        .glitter {
+            position: absolute;
+            top: 0;
+            width: 1px; /* Make droplets 1 pixel */
+            height: 60px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+            opacity: 0.8;
+            animation: glitterRain 3s infinite linear;
+            z-index: 1000;
+        }
+
+        /* Randomize glitter positions and speeds */
+        .glitter:nth-child(1) { left: 5%; animation-duration: 4s; }
+        .glitter:nth-child(2) { left: 15%; animation-duration: 3.5s; }
+        .glitter:nth-child(3) { left: 25%; animation-duration: 4.8s; }
+        .glitter:nth-child(4) { left: 35%; animation-duration: 3.2s; }
+        .glitter:nth-child(5) { left: 45%; animation-duration: 4s; }
+        .glitter:nth-child(6) { left: 55%; animation-duration: 5s; }
+        .glitter:nth-child(7) { left: 65%; animation-duration: 4.2s; }
+        .glitter:nth-child(8) { left: 75%; animation-duration: 3.7s; }
+        .glitter:nth-child(9) { left: 85%; animation-duration: 4.4s; }
+        .glitter:nth-child(10) { left: 95%; animation-duration: 4.9s; }
+
+        /* Stars twinkling effect */
+        @keyframes starTwinkle {
+            0%, 100% { opacity: 0.8; }
+            50% { opacity: 1; }
+        }
+
+        .star {
+            width: 2px;
+            height: 2px;
+            background: #ffffff;
+            position: absolute;
+            border-radius: 50%;
+            animation: starTwinkle 2s infinite;
+        }
+
+        .star:nth-child(1) { top: 10%; left: 20%; animation-delay: 1s; }
+        .star:nth-child(2) { top: 30%; left: 40%; animation-delay: 0.5s; }
+        .star:nth-child(3) { top: 50%; left: 60%; animation-delay: 2s; }
+        .star:nth-child(4) { top: 70%; left: 80%; animation-delay: 1.5s; }
+        .star:nth-child(5) { top: 90%; left: 10%; animation-delay: 3s; }
+
+        /* Neon background for sections */
+        section {
+            margin-bottom: 30px;
+            background-color: #1b263b;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px #00ffcc;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px #ff007f, 0 0 40px #00ffcc;
+        }
+
+        /* Bounce animation */
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+        /* Fade-in animation for content */
+        main {
+            padding: 20px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        footer {
+            text-align: center;
+            background-color: #1b263b;
+            padding: 10px;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 0 20px #00ffcc;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Falling Glitter Rain -->
+<div class="glitter"></div>
+<div class="glitter"></div>
+<div class="glitter"></div>
+<div class="glitter"></div>
+<div class="glitter"></div>
+<div class="glitter"></div>
+<div class="glitter"></div>
+<div class="glitter"></div>
+<div class="glitter"></div>
+<div class="glitter"></div>
+
+<!-- Twinkling Stars in the Header -->
+<div class="star"></div>
+<div class="star"></div>
+<div class="star"></div>
+<div class="star"></div>
+<div class="star"></div>
+
+<header>
+    <h1>Dr. Care O'Lot &amp; Puppy Care O'Lot Explains</h1>
+    <h2>By Patrick Daniel Duffy</h2>
+</header>
+
+<main>
+    <section class="about">
+        <h2>About Dr. Care O'Lot &amp; Puppy Care O'Lot</h2>
+        <p>Welcome to the world of <strong>Dr. Care O'Lot</strong> and her lovable sidekick <strong>Puppy Care O'Lot</strong>! We are here to teach kids fun, easy-to-understand health tips. Through engaging videos, we make learning about health exciting and simple for young viewers.</p>
+    </section>
+
+    <section>
+        <h2>Watch Our Videos</h2>
+        <p>Check out our latest episodes on YouTube where Dr. Care O'Lot and Puppy Care O'Lot share tips to keep kids healthy and strong!</p>
+        <a href="https://www.youtube.com/" class="btn" target="_blank">Watch on YouTube</a>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Patrick Daniel Duffy</h2>
+        <p>Have any questions, feedback, or collaboration ideas? Feel free to reach out via email:</p>
+        <p><a href="mailto:Paddy1987duffy@gmail.com">Paddy1987duffy@gmail.com</a></p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2024 Dr. Care O'Lot and Puppy Care O'Lot | Created by Patrick Daniel Duffy</p>
+</footer>
+
+
+
+</body></html>
