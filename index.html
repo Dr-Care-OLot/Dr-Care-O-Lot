@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dr. Care O'Lot and Puppy Care O'Lot - Fun health tips and videos for kids!">
+    <title>Dr. Care O'Lot - Rain Text Effect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1b2a;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Add padding to move text down */
+        .rain-text {
+            font-size: 60px;
+            color: #00fff0;
+            text-shadow: 0 0 20px #00fff0, 0 0 40px #00fff0, 0 0 60px #00fff0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            padding-top: 50px; /* Moves text down */
+        }
+
+        /* Emoji Rain */
+        .rain-text span {
+            display: inline-block;
+            opacity: 0;
+            transform: translateY(-100px); /* Start off-screen */
+            animation: rainDrop 2s ease forwards;
+        }
+
+        /* Delay for each letter */
+        .rain-text span:nth-child(1) { animation-delay: 0.2s; }
+        .rain-text span:nth-child(2) { animation-delay: 0.4s; }
+        .rain-text span:nth-child(3) { animation-delay: 0.6s; }
+        .rain-text span:nth-child(4) { animation-delay: 0.8s; }
+        .rain-text span:nth-child(5) { animation-delay: 1s; }
+        .rain-text span:nth-child(6) { animation-delay: 1.2s; }
+        .rain-text span:nth-child(7) { animation-delay: 1.4s; }
+        .rain-text span:nth-child(8) { animation-delay: 1.6s; }
+        .rain-text span:nth-child(9) { animation-delay: 1.8s; }
+        .rain-text span:nth-child(10) { animation-delay: 2s; }
+        .rain-text span:nth-child(11) { animation-delay: 2.2s; }
+        .rain-text span:nth-child(12) { animation-delay: 2.4s; }
+        .rain-text span:nth-child(13) { animation-delay: 2.6s; }
+        .rain-text span:nth-child(14) { animation-delay: 2.8s; }
+        .rain-text span:nth-child(15) { animation-delay: 3s; }
+        .rain-text span:nth-child(16) { animation-delay: 3.2s; }
+        .rain-text span:nth-child(17) { animation-delay: 3.4s; }
+
+        /* Rain drop animation */
+        @keyframes rainDrop {
+            0% {
+                opacity: 0;
+                transform: translateY(-100px); /* Falling from above */
+            }
+            70% {
+                opacity: 1;
+                transform: translateY(0); /* Lands in place */
+            }
+            100% {
+                transform: scale(1.1); /* Pops a bit on landing */
+            }
+        }
+
+        /* Add a main section for descriptions and contact info */
+        main {
+            margin-top: 20px;
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+            max-width: 700px;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: #00fff0;
+            text-shadow: 0 0 10px #00fff0, 0 0 20px #00fff0;
+        }
+
+        footer {
+            margin-top: 20px;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="rain-text">
+    <span>D</span>
+    <span>r</span>
+    <span>.</span>
+    <span>&nbsp;</span> <!-- Space -->
+    <span>C</span>
+    <span>a</span>
+    <span>r</span>
+    <span>e</span>
+    <span>&nbsp;</span>
+    <span>O</span>
+    <span>'</span>
+    <span>L</span>
+    <span>o</span>
+    <span>t</span>
+    <span>🩺</span> <!-- Adding some medical emojis -->
+    <span>👩‍⚕️</span>
+    <span>🐾</span>
+</div>
+
+<main>
+    <h2>About Dr. Care O'Lot & Puppy Care O'Lot</h2>
+    <p>
+        Welcome to the world of <strong>Dr. Care O'Lot</strong> 🩺 and her lovable sidekick <strong>Puppy Care O'Lot</strong> 🐾! We provide fun, easy-to-understand health tips and educational content for kids.
+        From check-ups to health tips, Dr. Care O'Lot explains everything in a friendly way, while Puppy Care O'Lot adds the fun! 
+        Watch our videos to learn how to stay healthy and happy.
+    </p>
+
+    <h2>Watch Our Videos 💉🎥</h2>
+    <p>
+        Check out our latest episodes on YouTube where Dr. Care O'Lot and Puppy Care O'Lot share important health tips, explain common health concerns, and have lots of fun!
+    </p>
+
+    <a href="https://www.youtube.com" target="_blank">Watch on YouTube 📺</a>
+</main>
+
+<footer>
+    <p>For inquiries, reach out to Patrick Daniel Duffy at <a href="mailto:Paddy1987duffy@gmail.com">Paddy1987duffy@gmail.com ✉️</a></p>
+    <p>&copy; 2024 Dr. Care O'Lot and Puppy Care O'Lot</p>
+</footer>
+
+</body>
+</html>
